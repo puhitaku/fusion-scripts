@@ -8,7 +8,7 @@ def run(context):
     ui = None
     try:
         app = adsk.core.Application.get()
-        ui  = app.userInterface
+        ui = app.userInterface
         design = app.activeProduct
         rootComp = design.rootComponent
 

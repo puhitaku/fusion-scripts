@@ -1,0 +1,3 @@
+#!/bin/sh
+
+black -S -l 100 ./**/*.py
